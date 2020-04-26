@@ -1,9 +1,9 @@
 // https://www.gatsbyjs.org/docs/gatsby-config/
 
 const siteMetadata = {
-  name: `Project Name`,
-  author: `@raid-guild`,
-  description: `Your site description here`,
+  name: `Angel Lines`,
+  author: `@yvevestal`,
+  description: `A Decentralized Site Landing`,
   social: [],
 };
 
@@ -17,8 +17,8 @@ module.exports = {
       options: {
         ...siteMetadata,
         display: 'minimal-ui',
-        theme_color: '#5035be',
-        background_color: 'white',
+        theme_color: 'slategray',
+        background_color: 'ghostwhite',
         icon: 'src/assets/favicon.png',
         lang: 'en-US',
         start_url: '/',
